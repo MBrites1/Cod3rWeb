@@ -9,4 +9,4 @@ console.log(clone)
 // usar spread com array
 const grupoA = ['João', 'Pedro', 'Glória']
 const grupoFinal = ['Maria', ...grupoA, 'Rafaela']
-console.log(grupoFinal)
+console.log(grupoFinal) 
