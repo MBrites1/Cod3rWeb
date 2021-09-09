@@ -1,0 +1,60 @@
+#HTTP HYPER TEXT TRANSFER PROTOCOL
+é um protocolo que permite obter recursos HTML. É a base de qualquer troca
+de dados na Web e um protocolo cliente-servidor. Que então quer dizer que, 
+a requisição é iniciada pelo usuario. geralmente em um navegador da web.
+
+
+#Características
+Ele sai da camada de Aplicação.
+
+Stateless, é um processo de recursos isolados, então, nada antigo é armazenado nele, cada uma 
+das transações são feitas do zero.
+
+Cliente-Servidor, manda uma requisição pro servidor e recebe algo como resposta, como pode ser 
+em JSON, HTML, etc...
+
+TCP/IP, ele vai te retornar conteúdos pra formar uma pagina web
+
+HTML, é uma linguagem de marcação de texto através de TAGs, ondde permite apresentar
+informações na internet, como links, imagens e o própio texto. todas as paginas que voce
+abre são a leitura e interpretação de um arquivo que contém o código!
+
+JSON, somente dados.
+
+CSS, é onde são criadas as imagens do site, é a parte estética do site.
+
+
+#Passo a Passo
+1 Usuario informa a Url
+
+2 O Browser gera a requisição
+
+3 O servidor WEB gera a resposta
+
+4 Browser exibe a página.
+
+
+#Requisições (MÉTODOS HTTP)
+GET - POST (MAIS USADOS)
+PUT
+DELETE
+OPTIONS
+TRACE
+CONNECT
+HEAD
+
+
+#Requisições e Respostas
+O cliente manda uma requisição em URL + Params e o Servidor responde
+mandando HTML, CSS, JS, Imagens, Videos, ...
+
+
+#Grupos de Status do HTTP (MENSAGENS)
+100 - Informação
+200 - Sucesso
+300 - Redirecionamento
+400 - Erro no Cliente
+500 - Erro no Servidor
+
+porta padrão http: 80
+porta padrão https: 443

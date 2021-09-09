@@ -1,0 +1,25 @@
+#Servidor WEB
+Eles são responsáveis por armazenar e trocar informações com outras máquinas.
+Por conta disso, dois participantes pelo menos são encolvidos na troca de 
+informações: O cliente que faz a requisição da Informação e um servidor que
+atende a esse pedido e responde ele.
+
+1 Virtual Hosting, é um metodo no qual os servidores web usam para que possam se
+hospedar mais de um dominio(site) em um mesmo computador. Em algumas vezes ele
+pode estar até mesmo no mesmo IP.
+
+2 Web Stack, Ele lida com o back-end(servidores) e com o front-end(cliente, browser).
+ele costuma usar o LAMP:
+Sistema Operacional - Linux
+Web Server - Apache
+DB - SQL
+Linguagem - PHP
+Geralmente existem pacotes com todos esses requisitos na internet para serem baixados e 
+ja ter eles como base na sua stack e para a sua aplicação web.
+
+
+#Servidor DNS
+Eles são os responsáveis por localizar e traduzir para números IP os endereços 
+dos sites que nós digitamos nos navegadores. Trabalhar com esses tipos de 
+servidores é muito sensível, pois eles demoram algumas horas para serem atualizados
+no mundo inteiro.
