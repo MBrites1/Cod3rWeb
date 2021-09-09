@@ -1,0 +1,13 @@
+#WEB
+Server-Side, é uma aplicação onde toda a aplicação, toda logica, renderização das paginas, 
+são processadas pelo lado do servidor. O browser e a máquina do usuario, serve
+basicamente como um terminal burro. As aplicações server-side, o conteudo é 
+gerado pelo lado do servidor.
+
+Client-Server, é onde tinha aplicações que eram chamados em duas ou três camadas,
+onde tinha o cliente, cliente rico, as vezes um middleware, um servidor e o banco de dados
+depois.
+
+Front-End e Web Services, é ele quem vai desenhar e desenvolver as páginas na qual o usuário irá interagir
+dentro de uma aplicação web. Já o web services é quem vai fazer com que os recursos da aplicação tenham
+filtros de validação, camadas de segurança, ...

@@ -1,0 +1,50 @@
+#Topologias
+Topoliga Estrela: varios computadores ligados ao nó central(Switch), 
+onde todos computadores conversam por ele.
+Se ele para de funcionar, todos perdem o contato.
+
+Distribuída: tem várias rotas de um computador para outro com vários Switchs, sendo assim, 
+se um deles perder o contato com algum outro computador, ainda assim,
+ele terá meios por outro computador para entrar em contato com o mesmo. 
+
+
+#TCP IP
+Orientado a conexão e confiável. Ele é um conjunto de regras padronizadas onde
+se permite que os computadores se comuniquem entre redes, de uma forma segura
+e confiável. Ele confere se o pacote foi entregue, caso não tenha sido, ele reenvia até que
+ele seja entregue.
+
+
+#UDP
+Ele é um conjunto de regras com a mesma função do TCP, porém ele é mais leve e menos restrito
+e menos confiável. Ele não verifica se o pacote foi entregue.
+
+#IPv4
+Classe A                
+   10.168.100.230
+'REDE'   HOST    '
+  255.0.0.0
+
+Classe B
+ 172.16.0.0/12
+' REDE ' HOST '
+255.255.0.0
+
+Classe C
+192.168.100.230
+'   REDE   ' HOST'
+255.255.255.0
+
+#Conceito de Porta
+
+Computador 1                    Computador 2
+10.85.0.4   *Skype              10.85.0.5   *Github
+            *Chrome                         *Chrome
+            *Apache                         *Node  <----- 
+            *Dropbox                        *MySQL      |
+               /\--------(PROCESSOS)----------/\        |
+http://10.85.0.5:8080                       PORT: 8080<--
+
+Os processos usam portas para se comunicar dentro da rede, com isso,
+dado a porta, os computadores e os processos conseguem se comunicar entre si.
+
