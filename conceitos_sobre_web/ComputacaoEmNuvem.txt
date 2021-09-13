@@ -1,0 +1,11 @@
+#Nuvem
+a maioria das Nuvens é alimentada por servidores linux.
+
+#Computação em Nuvem
+Computação em nuvem é um termo coloquial para a disponibilidade sob demanda 
+de recursos do sistema de computador, especialmente armazenamento de dados e
+capacidade de computação, sem o gerenciamento ativo direto do usuário.
+
+#IaaS
+é uma forma de cloud computing em que a infraestrutura de TI é fornecida aos 
+usuários por meio da internet. Ela costuma ser associada à computação serverless.
