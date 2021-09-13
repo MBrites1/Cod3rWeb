@@ -1,0 +1,17 @@
+#HTTPS
+É o http seguro. Essa segurança é feita em cima de um protocolo
+que criptografa os dados a partir de um certificado.
+
+*Dados criptografados usando os protocolos TLS ou SSL
+Eles criptografam todas as mensagens enviados de cliente pra servidor e vice versa.
+
+*Protege contra interceptação(MITM)
+Ele protege aqueles que tentam interceptar alguma informação no meio do caminho.
+
+*criptografa todas as informações: URL, cookies e headers
+
+*Usa certificados digitais
+
+#Autoridades Certificadoras
+
+*Organizações que emitem e validam os certficados.

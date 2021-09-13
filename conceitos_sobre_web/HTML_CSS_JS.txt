@@ -1,0 +1,8 @@
+#HTML
+É a parte estrutural da sua aplicação web.
+
+#CSS
+É a parte que vai te trazer o estilo, a parte estética da sua aplicação.
+
+#Java-Script
+É a parte de comportamento da sua aplicação web

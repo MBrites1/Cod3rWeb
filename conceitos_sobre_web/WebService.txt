@@ -1,0 +1,30 @@
+#Web Service
+É um serviço que roda em cima de tecnologias da WEB.
+É um serviço que sua aplicação prove um serviço de negócio, por exemplo:
+Obter a lista dos devedores da empresa. Esse serviço disponibilizado pra obter
+a lista de todos os clientes que estao devendo sua empresa, é um serviço que É
+disponibilizado em cima de tecnologias da web. Você costuma ter o uso de 
+comunicação baseada em texto. Pelo motivo de voce trabalhar com tecnologias
+pra web em cima do protocolo HTTP, você trabalha com dados sendo trafegados de
+fomra textual. Assim, é muito mais facil voce ter essa interoperabilidade entre 
+diversos sistemas diferentes. Uma vez que voce consegue ler o texto, fazer um parse
+e interpretar os dados que tem dentro do texto, é muito mais facil do que voce 
+trabalhar com dados binários.
+
+#SOAP (Simple Object Acess Protocol)
+é um protocolo para troca de informações estruturadas em uma plataforma descentralizada 
+e distribuída. Ele é um protocolo mais burocrático.
+
+#REST (Representational State Transfer)
+é um estilo de arquitetura de software que define um conjunto de restrições a serem usadas 
+para a criação de web services. Ele é um método mais simples, então a funcionalidade dele
+é mais usada.
+
+Convenções RESTful
+
+URL            Método      Descrição
+/clientes      Post        Novo cliente
+/clientes      Get         Obtém todos
+/clientes/36   Get         Obtém cliente 36
+/clientes/12   Put         Atualiza cliente 12
+/clientes/41   Delete      Exclui cliente 41
